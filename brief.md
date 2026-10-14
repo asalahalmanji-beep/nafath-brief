@@ -35,5 +35,9 @@ Under Oman's Personal Data Protection Law (Royal Decree No. 6/2022), the authori
 Resource: Ministry of Transport, Communications and Information Technology - Personal Data Protection Law (Oman) - https://www.mtcit.gov.om/ITAPortal/Data/English/DocLibrary/202364121511202/Personal%20Data%20Protection%20Law.pdf
 
 ## Misconception in My Track
+A common misconception in the programming track is that OAuth 2.0 is an authentication protocol used to log users into applications. In reality, OAuth 2.0 is strictly an authorization framework designed to delegate access to protected resources, whereas OpenID Connect (OIDC) is the actual authentication layer built on top of it to handle user logins. This distinction is explicitly clarified in the foundational specifications and architectural overviews provided by the OpenID Foundation and IETF standards documents.
+
+Resource: OpenID Foundation - Welcome to OpenID Connect - https://openid.net/connect/
 
 ## Open Questions
+What specific encryption algorithms and key management practices will be mandated by national regulatory bodies for storing citizen identity tokens securely within the cloud infrastructure?
