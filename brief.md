@@ -20,10 +20,19 @@ Android’s runtime permission model limits what a sign-on application can acces
 Resource: Android Developers - Request app permissions - https://developer.android.com/training/permissions/requesting
 
 ## Networking
+DNS over HTTPS (DoH) is a protocol for performing remote Domain Name System (DNS) resolution via the HTTPS protocol. For service users, DoH protects privacy and integrity by encrypting DNS queries and responses, preventing on-path attackers from eavesdropping on or tampering with the websites and services users are trying to reach. However, DoH does not protect the actual IP addresses of the servers being communicated with after resolution, nor does it secure the content of the subsequent HTTPS traffic.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://datatracker.ietf.org/doc/html/rfc8484
 
 ## Cybersecurity
+Phishing-resistant multi-factor authentication relies on cryptographic mechanisms that bind credentials to a specific origin, ensuring they cannot be captured or relayed by an attacker. MFA methods such as FIDO2/WebAuthn security keys and platform authenticators (like Windows Hello or biometric hardware enclaves) are considered phishing-resistant because they verify the domain. Conversely, SMS-based OTPs, email codes, and standard software push notifications are vulnerable to interception and adversary-in-the-middle phishing sites.
+
+Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management - https://pages.nist.gov/800-63-3/sp800-63b.html
 
 ## Data
+Under Oman's Personal Data Protection Law (Royal Decree No. 6/2022), the authority must adhere to strict obligations when collecting and storing citizens' personal data. These include obtaining explicit and lawful consent from the data subject, processing data transparently and solely for specified legitimate purposes, implementing adequate technical and organizational security measures to prevent breaches, ensuring data minimization and accuracy, and respecting citizens' rights to access, correct, or request deletion of their personal data.
+
+Resource: Ministry of Transport, Communications and Information Technology - Personal Data Protection Law (Oman) - https://www.mtcit.gov.om/ITAPortal/Data/English/DocLibrary/202364121511202/Personal%20Data%20Protection%20Law.pdf
 
 ## Misconception in My Track
 
